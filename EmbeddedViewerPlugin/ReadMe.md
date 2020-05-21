@@ -1,6 +1,6 @@
 # EmbeddedViewerPlugin
 
-The EmbeddedViewer Plugin also known as Content Viewer widget which is available in IBM Content Navigator, presents a tabbed viewing user interface, where multiple documents can be opened. In this widget, each document is opened within a new tab. However, Options are available for splitting/opening a second copy of the tabs either vertically or horizontally. This makes it possible to open two different documents side-by-side.
+The EmbeddedViewer Plugin also known as Content Viewer widget which is available in IBM Content Navigator, presents a tabbed viewing user interface, where multiple documents can be opened. In this widget, each document is opened within a new tab. However, options are available for splitting/opening a second copy of the tabs either vertically or horizontally. This makes it possible to open two different documents side-by-side.
 
 The EmbeddedViewer Plugin widget also provides access to view the document properties, or to add comments to a document – where supported. The widget has the capability to recognize when a document requested to be viewed is already opened in a tab. Instead of opening a new tab, the widget brings the correct tab to the foreground. For more information, follow the link in the [additional references](#additional-references) section.
 
