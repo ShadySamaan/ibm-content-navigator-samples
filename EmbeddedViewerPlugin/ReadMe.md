@@ -26,24 +26,7 @@ A EmbeddedViewerPlugin JAR file is available for use in the root directory. It c
 ## How to use this plugin
 Embedded Content Viewer Plugin is available to ICN as a feature. Example of other features are Browsing, Searching and Administration. Features are URL-addressable, hence when loading ICN, it is possible to specify the feature ID as a request parameter, to have that feature opened directly when loading ICN. To facilitate seamless integration, there is also a request parameter that allows for the window dressing of the application to be hidden.
 
-Taken together, these capabilities make it easy to adress this plugin as a standalone, embeddable UI component.
-
-### Using via IFRAME
-It is recommended that when using this feature, that it be selected into its own separate desktop. If the feature is included in your existing desktop, it will be visible in the feature navigation, which is not desirable, as it is intended for standalone use.
-
-When using this plugin via iframe, ICN gets the iframe DHTML object by Id, checks for existence of the EmbeddedViewer in the window object of the iframe, and if present, calls openDocument, forwarding the parameters that were sent from the caller.
-
-### Using via windows
-Alternative to an iframe, this feature could be opened in a separate browser window.
-
-In this mode, the iframe is not included on the page. Instead, the function **getContentViewer** will either open a new window, load the feature, or reuse the already opened window that has the feature loaded.
-
-Some notable features to be aware of when using this widget:
-
-* A call to open a document that is already open will select the document’s tab into the foreground, so that only one copy of each document is open at any time.
-* The viewer that is opened for a document is dictated by the viewer map configured for the desktop; if a different viewer is desired for a particular document type, it is simply a matter of defining a custom viewer map in ICN, to make that happen.
-* The widget supports split modes so that two copies of the viewer stack can be opened either side-by-side or top and bottom.
-* The widget supports viewing and editing of document properties, and adding notes – if supported by the underlying repository.
+In order to enble this fesature, go to Administrator in ICN, create a seperate desktop called "demo". After assigning the proper repository, go to layout tab and deselect all feature but "ICN Content Viewer". Save and close. This feature can then be accessed by appending desktop parameter: "&desktop=demo".
 
 ## Additional references
 
