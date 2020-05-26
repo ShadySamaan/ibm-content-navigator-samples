@@ -1,13 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project name="embeddedViewerPlugin" default="all" basedir=".">
 
-	<property name="J2EE_JAR" value="./lib/j2ee/j2ee.jar" />
 	<property name="NAVIGATOR_API_JAR" value="./lib/navigatorAPI.jar" />
 
 	<target name="all" depends="clean,compile,jar" />
 
 	<path id="classpath">
-		<fileset file="${J2EE_JAR}" />
 		<fileset file="${NAVIGATOR_API_JAR}" />
 	</path>
 

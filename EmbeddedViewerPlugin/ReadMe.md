@@ -1,13 +1,10 @@
 # EmbeddedViewerPlugin
 
-The EmbeddedViewer Plugin also known as Content Viewer widget which is available in IBM Content Navigator, presents a tabbed viewing user interface, where multiple documents can be opened. In this widget, each document is opened within a new tab. However, options are available for splitting/opening a second copy of the tabs either vertically or horizontally. This makes it possible to open two different documents side-by-side.
-
-The EmbeddedViewer Plugin widget also provides access to view the document properties, or to add comments to a document – where supported. The widget has the capability to recognize when a document requested to be viewed is already opened in a tab. Instead of opening a new tab, the widget brings the correct tab to the foreground. For more information, follow the link in the [additional references](#additional-references) section.
+A simple ICN plug-in that implements a thin wrapper around the ICN Content Viewer widget. The plug-in allows the content viewer to be loaded as a stand-alone ICN feature, suitable for presentation in a custom application. A basic JavaScript function is provided for opening one or more documents in this ContentViewer widget.
 
 ## Prerequisites
 
 * IBM Content Navigator
-* J2EE library
 * [Apache Ant](http://ant.apache.org/)
 
 ## Installation
@@ -30,6 +27,7 @@ In order to enble this fesature, go to Administrator in ICN, create a seperate d
 
 ## Additional references
 
-* [EmbeddedViewer Plugin](https://www.ibm.com/support/pages/node/1280704?lang=en)
+* [EmbeddedViewer Plugin Part I](https://www.ibm.com/support/pages/node/1280704?lang=en)
+* [EmbeddedViewer Plugin Part II](https://www.ibm.com/support/pages/node/1280698?lang=en)
 * [Developing applications with IBM Content Navigator](https://www.ibm.com/support/knowledgecenter/SSEUEX_3.0.7/com.ibm.developingeuc.doc/eucdi000.html)
 * [dW Answers forum](https://developer.ibm.com/answers/topics/icn/)
