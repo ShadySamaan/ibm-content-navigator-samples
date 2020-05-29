@@ -20,11 +20,6 @@ A EmbeddedViewerPlugin JAR file is available for use in the root directory. It c
     C:\EmbeddedViewerPlugin> ant
     ```
 
-## How to use this plugin
-Embedded Content Viewer Plugin is available to ICN as a feature. Example of other features are Browsing, Searching and Administration. Features are URL-addressable, hence when loading ICN, it is possible to specify the feature ID as a request parameter, to have that feature opened directly when loading ICN. To facilitate seamless integration, there is also a request parameter that allows for the window dressing of the application to be hidden.
-
-In order to enble this fesature, go to Administrator in ICN, create a seperate desktop called "demo". After assigning the proper repository, go to layout tab and deselect all feature but "ICN Content Viewer". Save and close. This feature can then be accessed by appending desktop parameter: "&desktop=demo".
-
 ## Additional references
 
 * [EmbeddedViewer Plugin Part I](https://www.ibm.com/support/pages/node/1280704?lang=en)
